@@ -8,11 +8,14 @@ In order to run this program you need python2.7.You can install python [here](ht
 
 #### Python libraries used:
 - Tkinter
+- pygame
 
 
 #### Modules used:
 - webbrowser
 - time
+- mixer
+- tkMessageBox
 
 #### Program:
 1.To begin with, run this program. The program prompts you to enter your name, number of minutes you want to work(X),break 
