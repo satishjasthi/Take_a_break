@@ -37,7 +37,7 @@ else:
 
 
 while count <4:
-        print('\n Your work session starts now')
+        print('\n Current working session: ' + time.ctime())#prints current date and time
 	time.sleep(work_time) # pauses the program for given number of seconds ,here it's 10 sec
 	root = Tk().withdraw()  # hiding the main window
 	var1 = tkMessageBox.askyesno("Break Time", ('Hi ' + name + " would you like to take a break? "))
